@@ -1,3 +1,4 @@
+/* cSpell: disable */
 * {
   margin: 0;
   box-sizing: border-box;
@@ -159,12 +160,13 @@ img {
 .curso-recuperacion {
   padding: 195px 0 0 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .lista {
   max-width: 530px;
+  margin: 0 50px;
 }
 
 .lista-header {
