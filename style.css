@@ -386,3 +386,30 @@ img {
 .toelf-txt:not(:last-child) {
   margin-bottom: 35px;
 }
+
+/* Saber de ti -------------------------------------------------------- */
+.saber-de-ti {
+  background-image: url("./assets/saber-de-ti-bg.png");
+  background-size: cover;
+  color: #ffffff;
+  padding: 100px;
+}
+
+.saber-de-ti-content {
+  max-width: 1200px;
+  padding-left: 30px;
+  margin: auto;
+}
+
+.saber-de-ti-header {
+  font-size: 3.75rem;
+  line-height: 4.375rem;
+  font-weight: 900;
+  max-width: 27.25rem;
+  margin-bottom: 27px;
+}
+
+.saber-de-ti-subheader {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
