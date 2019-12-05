@@ -12,6 +12,9 @@ body {
   --darker-light-blue: #e1e5e5;
   --placeholder-gray: #6a838a;
   --sky-blue: #5392b2;
+  --medium-gray: #4c4c4c;
+  --lighter-gray: #828282;
+  --mantecado: #fdffcc;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   letter-spacing: 0.16em;
 }
@@ -221,4 +224,70 @@ img {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+}
+
+/* Conversacion------------------------------------------------------- */
+.conversacion {
+  background-color: var(--mantecado);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.lets-talk {
+  margin-bottom: 30px;
+}
+
+.conversacion-lista {
+  max-width: 376px;
+  margin: 0 70px;
+}
+
+.conversacion-header {
+  letter-spacing: 0.1em;
+  color: var(--medium-gray);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.conversacion-subheader {
+  letter-spacing: 0.1em;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--lighter-gray);
+  margin-bottom: 65px;
+  line-height: 1.25rem;
+}
+
+.conversacion-punto-titulo {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--medium-gray);
+  position: relative;
+  margin-bottom: 13px;
+}
+
+.conversacion-punto-titulo::before {
+  content: "";
+  width: 93px;
+  height: 2px;
+  background-color: var(--medium-gray);
+  position: absolute;
+  left: 0;
+  top: -20px;
+}
+
+.conversacion-punto-descripcion {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1rem;
+  color: var(--lighter-gray);
+  margin-bottom: 50px;
+}
+
+.conversacion-bg {
+  margin: 0 70px;
+  flex-shrink: 1;
 }
