@@ -495,3 +495,32 @@ img {
   right: 10px;
   transform: translate(50%, -50%);
 }
+
+/* Footer ---------------------------------------------------------- */
+.footer {
+  background-color: var(--blueblue);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 20px 30px;
+}
+
+.footer-cta {
+  font-size: 0.875rem;
+  margin-left: auto;
+  margin-right: 48px;
+}
+
+.footer-social {
+  display: flex;
+  /* margin-left: auto; */
+}
+
+.footer-link:not(:last-child) {
+  margin-right: 22px;
+}
