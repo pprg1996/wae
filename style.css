@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   --dark-gray: #333333;
   --light-gray: #808080;
@@ -61,6 +65,13 @@ img {
 
 .nav-link:last-child {
   padding-right: 0;
+}
+
+.menu-botton {
+  background: none;
+  border: none;
+  width: 42px;
+  display: none;
 }
 
 /* Hero --------------------------------------------------------------- */
@@ -563,6 +574,41 @@ img {
 }
 
 @media (max-width: 968px) {
+  .header-content {
+    padding: 0 25px;
+  }
+
+  .nav-links {
+    top: 85px;
+    right: -320px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 0 0 0 30px;
+    padding: 32px 8px;
+    transition: right ease-in-out 0.3s;
+    box-shadow: -5px 5px 5px -5px rgba(0, 0, 0, 1);
+  }
+
+  .nav-links--show {
+    right: 0px;
+  }
+
+  .nav-link:last-child {
+    padding: 0 16px;
+  }
+
+  .nav-link:not(:last-child) {
+    margin: 0 0 16px 0;
+  }
+
+  .menu-botton {
+    display: initial;
+  }
+
   .saber-de-ti {
     padding: 75px 75px 75px 20px;
   }

@@ -8,3 +8,9 @@ function ajustarMapa() {
 ajustarMapa();
 
 addEventListener("resize", ajustarMapa);
+
+// Menu hamburguesa
+const menuBotton = document.querySelector(".menu-botton");
+menuBotton.addEventListener("click", () => {
+  document.querySelector(".nav-links").classList.toggle("nav-links--show");
+});
