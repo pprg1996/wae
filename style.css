@@ -552,17 +552,9 @@ img {
 }
 
 /* Responsive ------------------------------------------------------- */
-@media (max-width: 1300px) {
-  .conversacion-bg {
-    /* max-width: 300px; */
-  }
-
-  .metodologia-header {
-    /* margin-left: 100px; */
-  }
-
-  .metodologia-txt {
-    /* margin-left: 100px; */
+@media (max-width: 1132px) {
+  .curso-recuperacion {
+    padding-top: 250px;
   }
 }
 
@@ -643,10 +635,6 @@ img {
 @media (max-width: 574px) {
   .form-input {
     width: 380px;
-  }
-
-  .curso-recuperacion {
-    padding-top: 250px;
   }
 
   .footer-content {
