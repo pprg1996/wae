@@ -59,7 +59,7 @@ img {
 
 .nav-link {
   display: inline-block;
-  color: var(--dark-gray);
+  color: #333333;
   font-size: 12px;
   font-weight: 600;
   padding: 0 16px;
@@ -117,7 +117,7 @@ img {
 .form-clase-examen {
   background-color: #ffffff;
   border-radius: 2px;
-  border: 4px solid var(--reddish);
+  border: 4px solid #d66666;
   max-width: 600px;
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +131,7 @@ img {
 
 .form-msg {
   font-size: 0.75rem;
-  color: var(--light-gray);
+  color: #808080;
   font-weight: 500;
   line-height: 2;
   text-align: center;
@@ -140,14 +140,14 @@ img {
 
 .acento {
   font-weight: bold;
-  color: var(--dark-gray);
+  color: #333333;
 }
 
 .form-input {
   width: 214px;
   height: 45px;
-  background-color: var(--light-blue);
-  border: 2px solid var(--darker-light-blue);
+  background-color: #f5f9fa;
+  border: 2px solid #e1e5e5;
   padding: 0 20px;
   border-radius: 2px;
   margin: 0 23px 27px 23px;
@@ -163,7 +163,7 @@ img {
 .form-input-enviar {
   width: 214px;
   height: 45px;
-  background-color: var(--reddish);
+  background-color: #d66666;
   border-radius: 2px;
   border: none;
   color: #ffffff;
@@ -190,7 +190,7 @@ img {
 .lista-header {
   font-size: 1.5rem;
   font-weight: 500;
-  color: var(--dark-gray);
+  color: #333333;
   position: relative;
   margin-bottom: 60px;
 }
@@ -212,7 +212,7 @@ img {
 
 .lista-punto-nombre {
   font-size: 1rem;
-  color: var(--sky-blue);
+  color: #5392b2;
   font-weight: 600;
   margin-bottom: 12px;
   position: relative;
@@ -229,7 +229,7 @@ img {
 .lista-punto-descripcion {
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--light-gray);
+  color: #808080;
   line-height: 1.125rem;
 }
 
@@ -243,7 +243,7 @@ img {
 
 /* Conversacion------------------------------------------------------- */
 .conversacion {
-  background-color: var(--mantecado);
+  background-color: #fdffcc;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -261,7 +261,7 @@ img {
 
 .conversacion-header {
   letter-spacing: 0.1em;
-  color: var(--medium-gray);
+  color: #4c4c4c;
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 20px;
@@ -271,7 +271,7 @@ img {
   letter-spacing: 0.1em;
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--lighter-gray);
+  color: #828282;
   margin-bottom: 65px;
   line-height: 1.25rem;
 }
@@ -279,7 +279,7 @@ img {
 .conversacion-punto-titulo {
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--medium-gray);
+  color: #4c4c4c;
   position: relative;
   margin-bottom: 13px;
 }
@@ -288,7 +288,7 @@ img {
   content: "";
   width: 93px;
   height: 2px;
-  background-color: var(--medium-gray);
+  background-color: #4c4c4c;
   position: absolute;
   left: 0;
   top: -20px;
@@ -298,7 +298,7 @@ img {
   font-size: 0.6875rem;
   font-weight: 500;
   line-height: 1rem;
-  color: var(--lighter-gray);
+  color: #828282;
   margin-bottom: 50px;
 }
 
@@ -321,14 +321,14 @@ img {
 .metodologia-txt {
   font-size: 0.75rem;
   line-height: 1.5rem;
-  color: var(--dark-gray);
+  color: #333333;
   max-width: 560px;
   font-weight: 500;
   margin: 0 40px;
 }
 
 .metodologia-header {
-  color: var(--dark-gray);
+  color: #333333;
   font-size: 1.5rem;
   font-weight: 500;
   margin: 0 40px 23px 40px;
@@ -353,7 +353,7 @@ img {
 .card {
   width: 231px;
   height: 223px;
-  background-color: var(--blueblue);
+  background-color: #268798;
   border-radius: 2px;
   display: flex;
   flex-direction: column;
@@ -377,7 +377,7 @@ img {
 
 /* Toelf ------------------------------------------------------------ */
 .toelf {
-  background-color: var(--blueblue);
+  background-color: #268798;
   color: #ffffff;
   padding: 65px 30px;
 }
@@ -434,7 +434,7 @@ img {
 
 /* Contacto --------------------------------------------------------- */
 .contacto {
-  color: var(--dark-gray);
+  color: #333333;
   padding: 55px 10px;
 }
 
@@ -497,7 +497,7 @@ img {
   content: "";
   width: 305px;
   height: 1px;
-  background-color: var(--dark-gray);
+  background-color: #333333;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -519,7 +519,7 @@ img {
 
 /* Footer ---------------------------------------------------------- */
 .footer {
-  background-color: var(--blueblue);
+  background-color: #268798;
 }
 
 .footer-content {
