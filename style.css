@@ -125,7 +125,8 @@ img {
   padding: 30px 15px 15px 15px;
   position: absolute;
   bottom: 0;
-  transform: translateY(50%);
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 
 .form-msg {
