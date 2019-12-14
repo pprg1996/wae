@@ -46,3 +46,11 @@ navButtons.forEach(navButton => {
     }
   });
 });
+
+// Scroll a formulario
+document.querySelector(".formulario-cta").addEventListener("click", e => {
+  e.preventDefault();
+
+  let y = document.querySelector(".form-clase-examen").getBoundingClientRect().top + pageYOffset - 125;
+  scrollTo(0, y);
+});
