@@ -11,13 +11,16 @@ addEventListener("resize", ajustarMapa);
 
 // Menu hamburguesa
 const menuBotton = document.querySelector(".menu-botton");
-menuBotton.addEventListener("click", () => {
-  let navLinks = document.querySelector(".nav-links");
-  navLinks.classList.toggle("nav-links--show");
-
-  if (navLinks.classList.contains("nav-links--show")) {
+const navLinks = document.querySelector(".nav-links");
+document.addEventListener("click", e => {
+  if (e.target.closest(".menu-botton") && !navLinks.classList.contains("nav-links--show")) {
+    navLinks.classList.add("nav-links--show");
     menuBotton.querySelector("img").setAttribute("src", "./assets/close.png");
-  } else menuBotton.querySelector("img").setAttribute("src", "./assets/menu.png");
+  } else if (!e.target.closest(".nav-links") && navLinks.classList.contains("nav-links--show")) {
+    navLinks.classList.remove("nav-links--show");
+
+    menuBotton.querySelector("img").setAttribute("src", "./assets/menu.png");
+  }
 });
 
 // Navegacion
