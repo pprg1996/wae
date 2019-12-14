@@ -79,7 +79,7 @@ img {
 
 /* Hero --------------------------------------------------------------- */
 .hero {
-  background-image: url("./assets/hero-img.png");
+  background-image: url("./assets/hero-img-r.jpg");
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
