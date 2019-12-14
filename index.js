@@ -12,5 +12,10 @@ addEventListener("resize", ajustarMapa);
 // Menu hamburguesa
 const menuBotton = document.querySelector(".menu-botton");
 menuBotton.addEventListener("click", () => {
-  document.querySelector(".nav-links").classList.toggle("nav-links--show");
+  let navLinks = document.querySelector(".nav-links");
+  navLinks.classList.toggle("nav-links--show");
+
+  if (navLinks.classList.contains("nav-links--show")) {
+    menuBotton.querySelector("img").setAttribute("src", "./assets/close.png");
+  } else menuBotton.querySelector("img").setAttribute("src", "./assets/menu.png");
 });
