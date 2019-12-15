@@ -62,11 +62,17 @@ img {
   color: #333333;
   font-size: 12px;
   font-weight: 600;
-  padding: 0 16px;
+  padding: 5px 16px;
+  border-radius: 4px;
+}
+
+.nav-link--activo {
+  background-color: #333333;
+  color: #ffffff;
 }
 
 .nav-link:last-child {
-  padding-right: 0;
+  /* padding-right: 0; */
 }
 
 .menu-botton {
@@ -557,7 +563,7 @@ img {
 @media (max-width: 1150px) {
   .nav-link {
     font-size: 10px;
-    padding: 0 13px;
+    padding: 5px 12px;
   }
 }
 
@@ -603,7 +609,7 @@ img {
 
   .nav-link {
     font-size: 12px;
-    padding: 0 16px;
+    padding: 5px 16px;
   }
 
   .nav-link:last-child {

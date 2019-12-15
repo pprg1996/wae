@@ -50,6 +50,22 @@ navButtons.forEach(navButton => {
   });
 });
 
+// Active section on nav-links
+let linkActivo = 0;
+let linkActivoPrev = 0;
+document.addEventListener("scroll", () => {
+  if (pageYOffset >= 0) linkActivo = 0;
+  if (pageYOffset >= document.querySelector(".lista").offsetTop - 105) linkActivo = 1;
+  if (pageYOffset >= document.querySelector(".conversacion").offsetTop - 85) linkActivo = 2;
+  if (pageYOffset >= document.querySelector(".metodologia").offsetTop - 85) linkActivo = 3;
+  if (pageYOffset >= document.querySelector(".toelf").offsetTop - 85) linkActivo = 4;
+  if (pageYOffset >= document.querySelector(".contacto").offsetTop - 80) linkActivo = 5;
+
+  navButtons.item(linkActivoPrev).classList.remove("nav-link--activo");
+  navButtons.item(linkActivo).classList.add("nav-link--activo");
+  linkActivoPrev = linkActivo;
+});
+
 // Scroll a formulario
 document.querySelector(".formulario-cta").addEventListener("click", e => {
   e.preventDefault();
