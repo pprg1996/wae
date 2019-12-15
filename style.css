@@ -45,6 +45,7 @@ img {
   left: 0;
   right: 0;
   z-index: 10;
+  border-top: 4px solid #268798;
 }
 
 .header-content {
@@ -80,6 +81,7 @@ img {
   border: none;
   width: 42px;
   display: none;
+  outline: none;
 }
 
 /* Hero --------------------------------------------------------------- */
