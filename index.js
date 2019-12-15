@@ -37,6 +37,9 @@ navButtons.forEach(navButton => {
     } else if (e.target.innerText === "Taller de Conversación") {
       let y = document.querySelector(".conversacion").offsetTop - 85;
       scrollTo(0, y);
+    } else if (e.target.innerText === "Metodología") {
+      let y = document.querySelector(".metodologia").offsetTop - 85;
+      scrollTo(0, y);
     } else if (e.target.innerText === "TOELF") {
       let y = document.querySelector(".toelf").offsetTop - 85;
       scrollTo(0, y);
