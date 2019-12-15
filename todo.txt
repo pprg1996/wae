@@ -1,0 +1,6 @@
+Activate social links
+Setup contact links
+LINK DE CREDITO A PRDEV
+Show active section on header
+Montar servidor
+Escribir php para el formulario
