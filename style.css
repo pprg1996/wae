@@ -615,7 +615,7 @@ img {
   }
 
   .nav-link:last-child {
-    padding: 0 16px;
+    /* padding: 0 16px; */
   }
 
   .nav-link:not(:last-child) {
