@@ -598,11 +598,11 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    border-radius: 0 0 0 30px;
-    padding: 32px 8px;
+    background-color: #268798;
+    border-radius: 0 0 0 4px;
+    padding: 32px 16px;
     transition: right ease-in-out 0.3s;
-    box-shadow: -5px 5px 5px -5px rgba(0, 0, 0, 1);
+    border: 1px solid hsla(189, 60%, 35%, 1);
   }
 
   .nav-links--show {
@@ -610,8 +610,10 @@ img {
   }
 
   .nav-link {
-    font-size: 12px;
+    font-size: 11px;
     padding: 5px 16px;
+    font-weight: 500;
+    color: #f5f9fa;
   }
 
   .nav-link:last-child {
