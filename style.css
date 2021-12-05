@@ -102,6 +102,11 @@ img {
   margin-right: 25px;
 }
 
+.hero-logo {
+  width: 400px;
+  height: auto;
+}
+
 .hero-header {
   font-size: 3rem;
   color: #ffffff;
@@ -110,9 +115,10 @@ img {
 }
 
 .hero-msg {
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   color: #ffffff;
-  font-family: "Dancing Script", cursive;
+  /* font-family: "Dancing Script", cursive; */
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.16em;
   width: 100%;
   text-align: center;
@@ -554,7 +560,7 @@ img {
 
 .footer-social {
   display: flex;
-  /* margin-left: auto; */
+  margin-left: auto;
 }
 
 .footer-link:not(:last-child) {
