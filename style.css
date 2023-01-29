@@ -103,8 +103,18 @@ img {
 }
 
 .hero-logo {
-  width: 400px;
+  margin-left: 60px;
+  width: 650px;
   height: auto;
+}
+
+.hero-title {
+  width: 100%;
+  text-align: center;
+  color: #F8D84E;
+  margin-top: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
 }
 
 .hero-header {
@@ -115,7 +125,7 @@ img {
 }
 
 .hero-msg {
-  font-size: 1.05rem;
+  font-size: 2.05rem;
   color: #ffffff;
   /* font-family: "Dancing Script", cursive; */
   font-family: "Montserrat", sans-serif;
@@ -123,7 +133,7 @@ img {
   width: 100%;
   text-align: center;
   background-color: rgba(19, 42, 46, 0.8);
-  margin-top: 50px;
+  margin-top: 0.8rem;
   padding: 7px 0;
 }
 
@@ -242,7 +252,7 @@ img {
 }
 
 .lista-punto-descripcion {
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #808080;
   line-height: 1.125rem;
@@ -284,7 +294,7 @@ img {
 
 .conversacion-subheader {
   letter-spacing: 0.1em;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #828282;
   margin-bottom: 65px;
@@ -292,7 +302,7 @@ img {
 }
 
 .conversacion-punto-titulo {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #4c4c4c;
   position: relative;
@@ -310,7 +320,7 @@ img {
 }
 
 .conversacion-punto-descripcion {
-  font-size: 0.6875rem;
+  font-size: 0.85rem;
   font-weight: 500;
   line-height: 1rem;
   color: #828282;
@@ -383,11 +393,11 @@ img {
 }
 
 .card-titulo {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   font-weight: 500;
   color: #ffffff;
-  align-self: flex-start;
-  margin-left: 19px;
+  /* align-self: flex-start; */
+  /* margin-left: 19px; */
 }
 
 /* Toelf ------------------------------------------------------------ */
