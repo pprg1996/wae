@@ -99,12 +99,18 @@ img {
 }
 
 .hero-logo-container {
-  margin-right: 25px;
+  /* margin-right: 25px; */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .hero-logo {
-  margin-left: 60px;
-  width: 650px;
+  /* margin-left: 60px; */
+  width: 100%;
+  max-width: 650px;
   height: auto;
 }
 
@@ -142,6 +148,7 @@ img {
   background-color: #ffffff;
   border-radius: 2px;
   border: 4px solid #d66666;
+  width: 90%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -529,6 +536,26 @@ img {
   bottom: -20px;
 }
 
+.link-telefono{
+  color: #333333;
+  text-decoration: underline;
+}
+
+.link-correo{
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.5rem;
+  position: relative;
+  color: #333333;
+  text-decoration: underline;
+  display: block;
+}
+
+.nuestra-ubicacion {
+  margin-top: 1rem;
+}
+
 .mapouter {
   margin: 0 50px;
   position: relative;
@@ -575,6 +602,26 @@ img {
 
 .footer-link:not(:last-child) {
   margin-right: 22px;
+}
+
+/* Boton Whatsapp ------------------------------------------------------- */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }
 
 /* Responsive ------------------------------------------------------- */
@@ -687,9 +734,13 @@ img {
     font-size: 2rem;
   }
 
-  .hero-logo-container {
+  /* .hero-logo-container {
     margin-right: 14px;
     width: 67px;
+  } */
+
+  .hero-title{
+    font-size: 2.5rem;
   }
 
   .form-input {

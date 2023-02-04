@@ -12,22 +12,30 @@ addEventListener("resize", ajustarMapa);
 // Menu hamburguesa
 const menuBotton = document.querySelector(".menu-botton");
 const navLinks = document.querySelector(".nav-links");
-document.addEventListener("click", e => {
-  if (e.target.closest(".menu-botton") && !navLinks.classList.contains("nav-links--show")) {
+document.addEventListener("click", (e) => {
+  if (
+    e.target.closest(".menu-botton") &&
+    !navLinks.classList.contains("nav-links--show")
+  ) {
     navLinks.classList.add("nav-links--show");
     menuBotton.querySelector("img").setAttribute("src", "./assets/close.png");
-  } else if (!e.target.closest(".nav-links") && navLinks.classList.contains("nav-links--show")) {
+  } else if (
+    !e.target.closest(".nav-links") &&
+    navLinks.classList.contains("nav-links--show")
+  ) {
     navLinks.classList.remove("nav-links--show");
-
     menuBotton.querySelector("img").setAttribute("src", "./assets/menu.png");
   }
 });
 
 // Navegacion
 const navButtons = document.querySelectorAll(".nav-link");
-navButtons.forEach(navButton => {
-  navButton.addEventListener("click", e => {
+navButtons.forEach((navButton) => {
+  navButton.addEventListener("click", (e) => {
     e.preventDefault();
+
+    navLinks.classList.remove("nav-links--show");
+    menuBotton.querySelector("img").setAttribute("src", "./assets/menu.png");
 
     if (e.target.innerText === "Home") {
       scrollTo(0, 0);
