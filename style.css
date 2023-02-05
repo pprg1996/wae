@@ -407,14 +407,14 @@ img {
   /* margin-left: 19px; */
 }
 
-/* Toelf ------------------------------------------------------------ */
-.toelf {
+/* Toefl ------------------------------------------------------------ */
+.toefl {
   background-color: #268798;
   color: #ffffff;
   padding: 65px 30px;
 }
 
-.toelf-header {
+.toefl-header {
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
@@ -425,14 +425,14 @@ img {
   font-style: italic;
 }
 
-.toelf-txt {
+.toefl-txt {
   max-width: 750px;
   margin: auto;
   font-size: 0.75rem;
   line-height: 1.5rem;
 }
 
-.toelf-txt:not(:last-child) {
+.toefl-txt:not(:last-child) {
   margin-bottom: 35px;
 }
 

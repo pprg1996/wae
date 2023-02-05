@@ -48,8 +48,8 @@ navButtons.forEach((navButton) => {
     } else if (e.target.innerText === "Metodología") {
       let y = document.querySelector(".metodologia").offsetTop - 85;
       scrollTo(0, y);
-    } else if (e.target.innerText === "TOELF") {
-      let y = document.querySelector(".toelf").offsetTop - 85;
+    } else if (e.target.innerText === "TOEFL") {
+      let y = document.querySelector(".toefl").offsetTop - 85;
       scrollTo(0, y);
     } else if (e.target.innerText === "Contacto") {
       let y = document.querySelector(".contacto").offsetTop - 80;
@@ -66,7 +66,8 @@ document.addEventListener("scroll", () => {
   if (pageYOffset >= document.querySelector(".lista").offsetTop - 105) linkActivo = 1;
   if (pageYOffset >= document.querySelector(".conversacion").offsetTop - 85) linkActivo = 2;
   if (pageYOffset >= document.querySelector(".metodologia").offsetTop - 85) linkActivo = 3;
-  if (pageYOffset >= document.querySelector(".toelf").offsetTop - 85) linkActivo = 4;
+  if (pageYOffset >= document.querySelector(".toefl").offsetTop - 85)
+    linkActivo = 4;
   if (pageYOffset >= document.querySelector(".contacto").offsetTop - 80) linkActivo = 5;
 
   navButtons.item(linkActivoPrev).classList.remove("nav-link--activo");
